@@ -1,22 +1,21 @@
-/* Reset defaults */
+/* Reset default margins */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base styles */
 body {
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to bottom right, #0d6efd, #1f2937);
-    color: #333;
+    background: #0066ff;
+    color: #ff0000;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
 }
 
-/* Header */
+/* Header styles */
 header {
     background: #1f2937;
     color: white;
@@ -51,14 +50,13 @@ nav a:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* Menu toggle for mobile */
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-/* Main container */
+/* Main content */
 .container {
     flex: 1;
     padding: 20px;
@@ -83,7 +81,7 @@ nav a:hover {
 }
 
 .blog-list a {
-    color: #0d6efd;
+    color: #007bff;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1rem;
@@ -93,7 +91,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Blog content */
+/* Blog content styling */
 .blog-content {
     background: white;
     padding: 20px;
@@ -114,12 +112,12 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-    border: 1px solid #0d6efd;
+    border: 1px solid #007bff;
     outline: none;
 }
 
 button {
-    background: #0d6efd;
+    background: #007bff;
     color: white;
     border: none;
     padding: 10px 14px;
@@ -129,7 +127,7 @@ button {
 }
 
 button:hover {
-    background: #0046a3;
+    background: #0056b3;
 }
 
 /* Footer */
@@ -147,7 +145,7 @@ footer {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Mobile styles */
+/* Responsive styles */
 @media (max-width: 768px) {
     nav {
         display: none;
